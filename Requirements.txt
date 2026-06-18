@@ -1,0 +1,10 @@
+numpy
+opencv-python
+scipy
+pandas
+matplotlib
+scikit-image
+seaborn
+scanpy
+scikit-misc
+scikit-learn
