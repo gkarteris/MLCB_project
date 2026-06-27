@@ -222,3 +222,6 @@ __marimo__/
 # Data (too big for git)
 data/
 .vscode/
+test_code/
+unused_code/
+results_bkp/

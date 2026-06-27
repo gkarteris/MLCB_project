@@ -1,0 +1,13 @@
+{
+  "n_samples": 2991,
+  "n_features": 2001,
+  "n_rounds": 1,
+  "n_outer": 5,
+  "n_inner": 3,
+  "tuned": false,
+  "feature_selection": false,
+  "inner_scoring": "neg_mean_absolute_error",
+  "k_grid": null,
+  "fs_mode": null,
+  "mrmr_k": null
+}
