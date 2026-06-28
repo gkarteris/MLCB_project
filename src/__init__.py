@@ -13,7 +13,7 @@ from .save_results import (
     save_result, load_result,
     save_models, load_models,
     save_model, load_model,
-    fit_final_model, best_params_from_result,
+    best_params_from_result,
     save_run,
     save_per_family, load_per_family,
 )
@@ -27,7 +27,7 @@ __all__ = [
     "NestedCVRegressor", "CVResult", "default_models", "default_param_spaces",
     "run_per_family", "PerFamilyResult",
     "save_result", "load_result", "save_models", "load_models",
-    "save_model", "load_model", "fit_final_model", "best_params_from_result",
+    "save_model", "load_model", "best_params_from_result",
     "save_run", "save_per_family", "load_per_family",
     "functions",
     "BaselineRegressor", "BaselineResult",

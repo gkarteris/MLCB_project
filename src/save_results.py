@@ -119,26 +119,6 @@ def load_model(path):
     return joblib.load(path)
 
 
-# Final model (depricated, use save_models/load_models instead)
-#   reg -> configured NestedCVRegressor
-#   params -> overrides the model's hyperparameters
-def fit_final_model(reg, X, y, model_name: str, params: dict | None = None):
-    params = dict(params) if params else {}
-    k = params.pop("mrmr_k", None)
-    est = clone(reg.estimators[model_name])
-    if params:
-        est.set_params(**params)
-    selector = None
-    if getattr(reg, "feature_selector", None) is not None:
-        selector = clone(reg.feature_selector)
-        cap = max(1, int(len(np.asarray(y)) // 5)) # 5:1 on all dev cells
-        eff_k = min(getattr(selector, "k", 300) or 300, cap)
-        selector.set_params(k=(k if k is not None else eff_k))
-    pipe = reg._build_pipeline(est, selector=selector)
-    pipe.fit(np.asarray(X, dtype=float), np.asarray(y))
-    return pipe
-
-
 # Hyperparameters of the best-scoring fold for model_name
 def best_params_from_result(result, model_name: str, metric: str = "RMSE",
                             lower_is_better: bool = True) -> dict:
