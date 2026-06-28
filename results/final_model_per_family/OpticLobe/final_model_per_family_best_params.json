@@ -1,0 +1,702 @@
+[
+  {
+    "model": "XGBoost",
+    "round": 0,
+    "fold": 0,
+    "params": {
+      "n_estimators": 494,
+      "max_depth": 6,
+      "learning_rate": 0.03403293954268068,
+      "subsample": 0.7863562686771882,
+      "colsample_bytree": 0.695078795064439,
+      "reg_alpha": 0.02671873415336475,
+      "reg_lambda": 6.770756213647354
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 0,
+    "fold": 1,
+    "params": {
+      "n_estimators": 383,
+      "max_depth": 6,
+      "learning_rate": 0.04392762243451755,
+      "subsample": 0.8848309001611591,
+      "colsample_bytree": 0.7125794747719988,
+      "reg_alpha": 9.500708862748318,
+      "reg_lambda": 0.0011013342324005348
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 0,
+    "fold": 2,
+    "params": {
+      "n_estimators": 347,
+      "max_depth": 6,
+      "learning_rate": 0.02691252887795074,
+      "subsample": 0.7286179808629963,
+      "colsample_bytree": 0.9949590071661197,
+      "reg_alpha": 0.01799624186184875,
+      "reg_lambda": 6.362154621084735
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 0,
+    "fold": 3,
+    "params": {
+      "n_estimators": 321,
+      "max_depth": 5,
+      "learning_rate": 0.04460014171232782,
+      "subsample": 0.7316925470493886,
+      "colsample_bytree": 0.7369617612443501,
+      "reg_alpha": 0.20491184909371604,
+      "reg_lambda": 5.3878309233946355
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 0,
+    "fold": 4,
+    "params": {
+      "n_estimators": 465,
+      "max_depth": 6,
+      "learning_rate": 0.03199322573677451,
+      "subsample": 0.6017454548533605,
+      "colsample_bytree": 0.7957708728193291,
+      "reg_alpha": 0.12070708441962863,
+      "reg_lambda": 0.05309427277362532
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 1,
+    "fold": 0,
+    "params": {
+      "n_estimators": 451,
+      "max_depth": 5,
+      "learning_rate": 0.03337810089402696,
+      "subsample": 0.6849040817504752,
+      "colsample_bytree": 0.7369209879060502,
+      "reg_alpha": 0.004771261290377254,
+      "reg_lambda": 0.809426276268865
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 1,
+    "fold": 1,
+    "params": {
+      "n_estimators": 323,
+      "max_depth": 8,
+      "learning_rate": 0.056576076536147275,
+      "subsample": 0.6706485593309208,
+      "colsample_bytree": 0.8195213050713941,
+      "reg_alpha": 0.004644994744756074,
+      "reg_lambda": 9.691040215864739
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 1,
+    "fold": 2,
+    "params": {
+      "n_estimators": 327,
+      "max_depth": 5,
+      "learning_rate": 0.03657646851068754,
+      "subsample": 0.6810265524497955,
+      "colsample_bytree": 0.8317987994108904,
+      "reg_alpha": 0.03480361950616234,
+      "reg_lambda": 4.646503586035703
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 1,
+    "fold": 3,
+    "params": {
+      "n_estimators": 455,
+      "max_depth": 7,
+      "learning_rate": 0.0231023343466503,
+      "subsample": 0.6002889356712142,
+      "colsample_bytree": 0.6513210232108414,
+      "reg_alpha": 0.0013111335969524269,
+      "reg_lambda": 9.87230461020803
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 1,
+    "fold": 4,
+    "params": {
+      "n_estimators": 461,
+      "max_depth": 6,
+      "learning_rate": 0.037146039785863505,
+      "subsample": 0.7135902645805015,
+      "colsample_bytree": 0.9978460466956144,
+      "reg_alpha": 0.0680288475317991,
+      "reg_lambda": 1.3802881660853832
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 2,
+    "fold": 0,
+    "params": {
+      "n_estimators": 406,
+      "max_depth": 8,
+      "learning_rate": 0.07444887269088177,
+      "subsample": 0.7146408187866018,
+      "colsample_bytree": 0.8694177275767975,
+      "reg_alpha": 5.420387855231409,
+      "reg_lambda": 9.501238130813288
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 2,
+    "fold": 1,
+    "params": {
+      "n_estimators": 459,
+      "max_depth": 4,
+      "learning_rate": 0.04883749316969876,
+      "subsample": 0.7882245385493218,
+      "colsample_bytree": 0.7702936371633324,
+      "reg_alpha": 7.586063690752719,
+      "reg_lambda": 2.0117975822653955
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 2,
+    "fold": 2,
+    "params": {
+      "n_estimators": 318,
+      "max_depth": 7,
+      "learning_rate": 0.05402036418422652,
+      "subsample": 0.7536829400158658,
+      "colsample_bytree": 0.8309608026275019,
+      "reg_alpha": 0.030114832335844836,
+      "reg_lambda": 0.0026160420369817075
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 2,
+    "fold": 3,
+    "params": {
+      "n_estimators": 412,
+      "max_depth": 6,
+      "learning_rate": 0.04220540879802481,
+      "subsample": 0.8579618763142437,
+      "colsample_bytree": 0.7243672384563907,
+      "reg_alpha": 0.017775366542099064,
+      "reg_lambda": 3.438277254735411
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 2,
+    "fold": 4,
+    "params": {
+      "n_estimators": 324,
+      "max_depth": 7,
+      "learning_rate": 0.025775164723113846,
+      "subsample": 0.6896137502847433,
+      "colsample_bytree": 0.9270309267136267,
+      "reg_alpha": 0.015033401986623961,
+      "reg_lambda": 1.7895633516922789
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 3,
+    "fold": 0,
+    "params": {
+      "n_estimators": 494,
+      "max_depth": 6,
+      "learning_rate": 0.023784501374902497,
+      "subsample": 0.8192334965732082,
+      "colsample_bytree": 0.7126530172525689,
+      "reg_alpha": 0.007867245067071284,
+      "reg_lambda": 7.248622319047178
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 3,
+    "fold": 1,
+    "params": {
+      "n_estimators": 447,
+      "max_depth": 5,
+      "learning_rate": 0.026447661403103805,
+      "subsample": 0.6596293697054296,
+      "colsample_bytree": 0.8810908303269587,
+      "reg_alpha": 8.682593768411905,
+      "reg_lambda": 0.011114066675943312
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 3,
+    "fold": 2,
+    "params": {
+      "n_estimators": 152,
+      "max_depth": 7,
+      "learning_rate": 0.1165340545363131,
+      "subsample": 0.7122829156268203,
+      "colsample_bytree": 0.864527646339745,
+      "reg_alpha": 0.026675786170120667,
+      "reg_lambda": 9.78096926079204
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 3,
+    "fold": 3,
+    "params": {
+      "n_estimators": 389,
+      "max_depth": 6,
+      "learning_rate": 0.07652232754454727,
+      "subsample": 0.9261215107490504,
+      "colsample_bytree": 0.7553745047978356,
+      "reg_alpha": 8.645636630527244,
+      "reg_lambda": 0.2432991758880406
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 3,
+    "fold": 4,
+    "params": {
+      "n_estimators": 395,
+      "max_depth": 6,
+      "learning_rate": 0.018868453787904027,
+      "subsample": 0.7450475483960615,
+      "colsample_bytree": 0.9221942312260079,
+      "reg_alpha": 6.887070286754427,
+      "reg_lambda": 0.027825267031399918
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 4,
+    "fold": 0,
+    "params": {
+      "n_estimators": 460,
+      "max_depth": 6,
+      "learning_rate": 0.042171508526338206,
+      "subsample": 0.6604731993841815,
+      "colsample_bytree": 0.8213222063638627,
+      "reg_alpha": 0.2101174394174335,
+      "reg_lambda": 1.6282467706561656
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 4,
+    "fold": 1,
+    "params": {
+      "n_estimators": 418,
+      "max_depth": 6,
+      "learning_rate": 0.03413244600627814,
+      "subsample": 0.6420932643495173,
+      "colsample_bytree": 0.8447715852292879,
+      "reg_alpha": 0.2197682779319868,
+      "reg_lambda": 3.2558246812943095
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 4,
+    "fold": 2,
+    "params": {
+      "n_estimators": 320,
+      "max_depth": 9,
+      "learning_rate": 0.057417345742451595,
+      "subsample": 0.6566724898027517,
+      "colsample_bytree": 0.9033187269824776,
+      "reg_alpha": 0.0029412395444771908,
+      "reg_lambda": 9.967060767987235
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 4,
+    "fold": 3,
+    "params": {
+      "n_estimators": 405,
+      "max_depth": 8,
+      "learning_rate": 0.028440248499001553,
+      "subsample": 0.7660943279883093,
+      "colsample_bytree": 0.7886851528999627,
+      "reg_alpha": 0.0020336033336308696,
+      "reg_lambda": 1.7538579439378608
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 4,
+    "fold": 4,
+    "params": {
+      "n_estimators": 461,
+      "max_depth": 9,
+      "learning_rate": 0.01712281122720921,
+      "subsample": 0.7683606389571402,
+      "colsample_bytree": 0.7132000312090125,
+      "reg_alpha": 8.159352866104145,
+      "reg_lambda": 0.00403011465104629
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 5,
+    "fold": 0,
+    "params": {
+      "n_estimators": 224,
+      "max_depth": 10,
+      "learning_rate": 0.04771506317876496,
+      "subsample": 0.6176852329868704,
+      "colsample_bytree": 0.998713274087196,
+      "reg_alpha": 0.6417371854146486,
+      "reg_lambda": 6.358155427924917
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 5,
+    "fold": 1,
+    "params": {
+      "n_estimators": 411,
+      "max_depth": 6,
+      "learning_rate": 0.03699759899136049,
+      "subsample": 0.7529203000563721,
+      "colsample_bytree": 0.6923788553880513,
+      "reg_alpha": 3.1647054031238246,
+      "reg_lambda": 0.13710425629843392
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 5,
+    "fold": 2,
+    "params": {
+      "n_estimators": 451,
+      "max_depth": 7,
+      "learning_rate": 0.02487332536851156,
+      "subsample": 0.7137311764746909,
+      "colsample_bytree": 0.84671030764311,
+      "reg_alpha": 1.8855197124705125,
+      "reg_lambda": 5.452641038336719
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 5,
+    "fold": 3,
+    "params": {
+      "n_estimators": 375,
+      "max_depth": 5,
+      "learning_rate": 0.04002595969953301,
+      "subsample": 0.844938101327332,
+      "colsample_bytree": 0.8826519687945574,
+      "reg_alpha": 0.03816569051052305,
+      "reg_lambda": 0.18950844929968183
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 5,
+    "fold": 4,
+    "params": {
+      "n_estimators": 364,
+      "max_depth": 5,
+      "learning_rate": 0.09250164397952565,
+      "subsample": 0.8639992301774999,
+      "colsample_bytree": 0.8386492447829332,
+      "reg_alpha": 9.519165339969247,
+      "reg_lambda": 0.03411504899329567
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 6,
+    "fold": 0,
+    "params": {
+      "n_estimators": 420,
+      "max_depth": 6,
+      "learning_rate": 0.09484464548486923,
+      "subsample": 0.632323363584401,
+      "colsample_bytree": 0.9596065726149117,
+      "reg_alpha": 0.01462845352836641,
+      "reg_lambda": 7.334980363821938
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 6,
+    "fold": 1,
+    "params": {
+      "n_estimators": 436,
+      "max_depth": 6,
+      "learning_rate": 0.03962581900654224,
+      "subsample": 0.6412464691147579,
+      "colsample_bytree": 0.6934491876931029,
+      "reg_alpha": 0.04593747045059295,
+      "reg_lambda": 0.8758065117990401
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 6,
+    "fold": 2,
+    "params": {
+      "n_estimators": 442,
+      "max_depth": 6,
+      "learning_rate": 0.03997380321677075,
+      "subsample": 0.9077369430981528,
+      "colsample_bytree": 0.8650771863043933,
+      "reg_alpha": 9.254718291017014,
+      "reg_lambda": 7.158660444494426
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 6,
+    "fold": 3,
+    "params": {
+      "n_estimators": 415,
+      "max_depth": 6,
+      "learning_rate": 0.04951285941589023,
+      "subsample": 0.7676830037753093,
+      "colsample_bytree": 0.6364171793983815,
+      "reg_alpha": 0.0020829269292083224,
+      "reg_lambda": 4.155743154025152
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 6,
+    "fold": 4,
+    "params": {
+      "n_estimators": 333,
+      "max_depth": 6,
+      "learning_rate": 0.03728095879286312,
+      "subsample": 0.7132519599139843,
+      "colsample_bytree": 0.7243584436453088,
+      "reg_alpha": 1.0916629994913045,
+      "reg_lambda": 0.5322676131012577
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 7,
+    "fold": 0,
+    "params": {
+      "n_estimators": 366,
+      "max_depth": 7,
+      "learning_rate": 0.01871621509997335,
+      "subsample": 0.6114407126062349,
+      "colsample_bytree": 0.7936081327250626,
+      "reg_alpha": 4.842476993657563,
+      "reg_lambda": 3.0476754065301686
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 7,
+    "fold": 1,
+    "params": {
+      "n_estimators": 442,
+      "max_depth": 7,
+      "learning_rate": 0.035111749096224866,
+      "subsample": 0.6811184697630934,
+      "colsample_bytree": 0.7119447867561168,
+      "reg_alpha": 1.1710874426960247,
+      "reg_lambda": 4.216408707014649
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 7,
+    "fold": 2,
+    "params": {
+      "n_estimators": 455,
+      "max_depth": 7,
+      "learning_rate": 0.034795978088756035,
+      "subsample": 0.7005661545211166,
+      "colsample_bytree": 0.7560297846244298,
+      "reg_alpha": 0.0039050052283680016,
+      "reg_lambda": 2.877102066915388
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 7,
+    "fold": 3,
+    "params": {
+      "n_estimators": 270,
+      "max_depth": 6,
+      "learning_rate": 0.027987361787056006,
+      "subsample": 0.7761521234969182,
+      "colsample_bytree": 0.7536484559266414,
+      "reg_alpha": 0.329555242273004,
+      "reg_lambda": 1.7607062053780247
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 7,
+    "fold": 4,
+    "params": {
+      "n_estimators": 453,
+      "max_depth": 7,
+      "learning_rate": 0.025464834786644273,
+      "subsample": 0.7552793428423313,
+      "colsample_bytree": 0.8007297343831883,
+      "reg_alpha": 0.4883127397380863,
+      "reg_lambda": 2.4412763595753666
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 8,
+    "fold": 0,
+    "params": {
+      "n_estimators": 438,
+      "max_depth": 6,
+      "learning_rate": 0.02391151494378501,
+      "subsample": 0.9552520591913005,
+      "colsample_bytree": 0.7923397115178284,
+      "reg_alpha": 2.9636644091565763,
+      "reg_lambda": 9.010009553265611
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 8,
+    "fold": 1,
+    "params": {
+      "n_estimators": 477,
+      "max_depth": 7,
+      "learning_rate": 0.02443224053597031,
+      "subsample": 0.7525478178515237,
+      "colsample_bytree": 0.9045507493222207,
+      "reg_alpha": 0.01475321545178967,
+      "reg_lambda": 0.01668729173857853
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 8,
+    "fold": 2,
+    "params": {
+      "n_estimators": 333,
+      "max_depth": 6,
+      "learning_rate": 0.042543564416265583,
+      "subsample": 0.639680660208552,
+      "colsample_bytree": 0.6842888148246424,
+      "reg_alpha": 0.23130056660570222,
+      "reg_lambda": 2.8723399698062186
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 8,
+    "fold": 3,
+    "params": {
+      "n_estimators": 469,
+      "max_depth": 5,
+      "learning_rate": 0.04355288114915772,
+      "subsample": 0.6002302373437411,
+      "colsample_bytree": 0.9683039417952505,
+      "reg_alpha": 7.429359595326132,
+      "reg_lambda": 1.003537978341496
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 8,
+    "fold": 4,
+    "params": {
+      "n_estimators": 217,
+      "max_depth": 6,
+      "learning_rate": 0.0790602992113337,
+      "subsample": 0.6232634494062539,
+      "colsample_bytree": 0.8018289146750263,
+      "reg_alpha": 0.021616910309183432,
+      "reg_lambda": 3.0456201120275757
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 9,
+    "fold": 0,
+    "params": {
+      "n_estimators": 347,
+      "max_depth": 8,
+      "learning_rate": 0.020229684167791608,
+      "subsample": 0.605374307938045,
+      "colsample_bytree": 0.9565645916241106,
+      "reg_alpha": 2.4476153128234457,
+      "reg_lambda": 1.922396491730652
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 9,
+    "fold": 1,
+    "params": {
+      "n_estimators": 469,
+      "max_depth": 7,
+      "learning_rate": 0.021139876964859656,
+      "subsample": 0.6157138399022573,
+      "colsample_bytree": 0.8191558310936927,
+      "reg_alpha": 0.0022948107120975224,
+      "reg_lambda": 1.871858949665155
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 9,
+    "fold": 2,
+    "params": {
+      "n_estimators": 477,
+      "max_depth": 4,
+      "learning_rate": 0.07083635184335539,
+      "subsample": 0.7272723446218771,
+      "colsample_bytree": 0.763394623868846,
+      "reg_alpha": 0.30607352948772343,
+      "reg_lambda": 1.4468874619901406
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 9,
+    "fold": 3,
+    "params": {
+      "n_estimators": 478,
+      "max_depth": 6,
+      "learning_rate": 0.034982050754943976,
+      "subsample": 0.6000430001697958,
+      "colsample_bytree": 0.9683682700768534,
+      "reg_alpha": 0.0024449942124663026,
+      "reg_lambda": 0.0011963605265616832
+    }
+  },
+  {
+    "model": "XGBoost",
+    "round": 9,
+    "fold": 4,
+    "params": {
+      "n_estimators": 334,
+      "max_depth": 6,
+      "learning_rate": 0.028793087235730323,
+      "subsample": 0.797047980615486,
+      "colsample_bytree": 0.7562530231807725,
+      "reg_alpha": 0.03981415935911254,
+      "reg_lambda": 0.14186671164776068
+    }
+  }
+]
