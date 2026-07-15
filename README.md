@@ -45,7 +45,7 @@ This is the core of the pipeline: a repeated **nested cross-validation** (rnCV) 
 
 > **Note on `k_grid` / `active_k_grid`:** if you pass a fixed `k_grid`, make sure `tune_k=False` (the default) unless you explicitly want Optuna to search over it - a previously-fixed bug allowed `active_k_grid` auto-generation to silently override a user-supplied fixed `k`. This is now opt-in only.
 
-### 4. Basic usage — single family, baseline (no tuning)
+### 4. Basic usage - single family, baseline (no tuning)
 
 ```python
 reg = NestedCVRegressor(
