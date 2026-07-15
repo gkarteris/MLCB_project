@@ -220,7 +220,6 @@ __marimo__/
 
 # User defined
 # Data (too big for git)
-data/
 .vscode/
 test_code/
 unused_code/
