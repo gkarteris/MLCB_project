@@ -10,7 +10,7 @@ from sklearn.feature_selection import SelectorMixin, f_regression, mutual_info_r
 #   k = number of features to keep
 #   relevance = "f" (F-statistic) or "mi" (mutual information)
 class MRMRSelector(BaseEstimator, SelectorMixin):
-    def __init__(self, k: int = 300, relevance: str = "f", random_state: int = 42):
+    def __init__(self, k: int = 100, relevance: str = "f", random_state: int = 42):
         self.k = k
         self.relevance = relevance
         self.random_state = random_state

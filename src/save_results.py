@@ -44,8 +44,8 @@ def save_result(result, outdir, name: str = "cv") -> Path:
         result.feature_stability.to_csv(outdir / f"{name}_feature_stability.csv",
                                         index=False)
 
-    # best_params is keyed by the tuple (model, round, fold); JSON has no tuple
-    # keys, so flatten to a list of records (round/fold cast to plain int).
+    # best_params is keyed by the tuple (model, round, fold)
+    # JSON has no tuple keys so flatten to a list of records (round/fold cast to plain int).
     records = [
         {"model": k[0], "round": int(k[1]), "fold": int(k[2]), "params": v}
         for k, v in result.best_params.items()

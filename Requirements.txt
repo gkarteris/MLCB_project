@@ -1,10 +1,13 @@
+pathlib
 numpy
+pandas
 opencv-python
 scipy
-pandas
-matplotlib
-scikit-image
-seaborn
 scanpy
 scikit-misc
 scikit-learn
+scikit-image
+optuna
+shap
+matplotlib
+seaborn

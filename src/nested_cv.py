@@ -1,11 +1,13 @@
 # Repeated nested cross-validation for the age-regression problem
 #   tune=False -> baseline (outer CV only, library-default hyperparameters)
 #   tune=True -> nested CV (an Optuna inner loop tunes each model)
-#   fs_mode="outer" vs "inner" -> feature selection is performed once every outer fold vs once per inner fold (very expensive computationally)
-#   if k_grid is supplied the MRMRSelector use this for feature selection
+#   fs_mode="outer" vs "inner" -> feature selection is performed once every outer fold vs once per inner fold (inner tune is expensive computationally but ensures no information leakage)
+#   tune_k=True -> the number of features to keep (K) is tuned in the inner loop (only when fs_mode="inner") (very expensive computationally not used in assignment)
+#   if k_grid is supplied the MRMRSelector use this for feature selection (tests different K values)
 #   if k_grid is None and k_step is supplied a size-aware K grid is generated for each family
 #   if both k_grid and k_step are None, the MRMRSelector uses its default K value
-#   keep_models=True retains each fitted fold pipeline in the result's .models dict
+#   k_safety_cap=True -> the MRMRSelector K value is capped at a 5:1 ratio of training samples to features (to avoid overfitting)
+#   keep_models=True retains each fitted fold pipeline in the result's .models dict (disk space heavy - only used for debugging or downstream analysis)
 
 from __future__ import annotations
 
@@ -26,7 +28,7 @@ from sklearn.metrics import (
     median_absolute_error,
     r2_score,
 )
-from sklearn.model_selection import RepeatedStratifiedKFold, StratifiedKFold, cross_val_score
+from sklearn.model_selection import RepeatedStratifiedKFold, StratifiedKFold
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVR
@@ -117,7 +119,7 @@ class NestedCVRegressor:
         tune_k: bool = False,
         k_grid: list[int] | None = None,
         k_step: int = 50,
-        fs_mode: str = "outer", # "outer" or "inner"
+        fs_mode: str = "inner", # "outer" or "inner"
         k_safety_cap: bool = True,
         random_state: int = RAND_SEED,
         verbose: int = 1,
